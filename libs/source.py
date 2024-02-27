@@ -19,8 +19,8 @@ class ZWYT(object):
         self.roomId = None
         self.cookies = {'ic-cookie': ''}  # 保存登录用的 cookie
         self.name = name  # 名字
-        self.username = str(username)  # 学号
-        self.password = str(password)  # 密码
+        self.username = str(os.environ['XUHAO'])  # 学号
+        self.password = str(os.environ['MIMA'])  # 密码
         self.periods = periods  # 预约时间段
         self.pushplus_token = pushplus_token  # pushplus 的 token
 
