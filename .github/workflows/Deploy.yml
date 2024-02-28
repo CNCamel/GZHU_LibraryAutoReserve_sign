@@ -29,5 +29,6 @@ jobs:
         env:
           XUHAO: ${{ secrets.XUHAO }}
           MIMA: ${{ secrets.MIMA }}
-          PUSHPLUS: ${{ secrets.PUSHPLUS }}
+          XUHAO1: ${{ secrets.XUHAO1 }}
+          MIMA1: ${{ secrets.MIMA1 }}
         run: python reserve.py
