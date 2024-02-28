@@ -22,7 +22,7 @@ class ZWYT(object):
         self.username = str(os.environ['XUHAO'])  # 学号
         self.password = str(os.environ['MIMA'])  # 密码
         self.periods = periods  # 预约时间段
-        self.pushplus_token = pushplus_token  # pushplus 的 token
+        self.pushplus_token = str(os.environ['PUSHPLUS'])  # pushplus 的 token
 
         # url接口
         self.urls = {
