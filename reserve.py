@@ -10,7 +10,7 @@ def main(*args, **kwargs):
     for stu in infos:
         try:
             # 初始化类示例，传入昵称、用户名、密码、时间段、推送token（推送可以为空）
-            yy = ZWYT(stu['name'], stu[str(os.environ['XUHAO'])], stu[str(os.environ['MIMA'])], stu['periods'], stu['pushplus'])
+            yy = ZWYT(stu['name'], stu['sno'], stu['pwd'], stu['periods'], stu['pushplus'])
 
             # 调用预约函数预约，传入预约座位号
             yy.reserve(stu['devName'])
