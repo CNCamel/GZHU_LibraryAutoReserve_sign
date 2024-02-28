@@ -28,7 +28,6 @@ jobs:
       - name: Run the script
         env:
           XUHAO: ${{ secrets.XUHAO }}
-          SEATNO: ${{ secrets.SEATNO }}
           MIMA: ${{ secrets.MIMA }}
           PUSHPLUS: ${{ secrets.PUSHPLUS }}
         run: python reserve.py
