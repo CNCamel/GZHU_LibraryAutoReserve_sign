@@ -2,7 +2,6 @@ import json
 import re
 import sys
 import typing
-import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import unquote
@@ -20,10 +19,10 @@ class ZWYT(object):
         self.roomId = None
         self.cookies = {'ic-cookie': ''}  # 保存登录用的 cookie
         self.name = name  # 名字
-        self.username = str(os.environ['XUHAO'])  # 学号
-        self.password = str(os.environ['MIMA'])  # 密码
+        self.username = username  # 学号
+        self.password = password  # 密码
         self.periods = periods  # 预约时间段
-        self.pushplus_token = str(os.environ['PUSHPLUS'])  # pushplus 的 token
+        self.pushplus_token = pushplus_token  # pushplus 的 token
 
         # url接口
         self.urls = {
