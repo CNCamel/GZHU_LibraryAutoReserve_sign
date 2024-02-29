@@ -1,4 +1,4 @@
-name: 9o_clock
+name: Sign
 
 on:
   schedule:
