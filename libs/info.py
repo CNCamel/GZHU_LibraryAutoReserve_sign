@@ -17,7 +17,7 @@ infos = [
     {
         'sno': str(os.environ['XUHAO1']),
         'pwd': str(os.environ['MIMA1']),
-        'devName': '3C-053',
+        'devName': '3C-110',
         'name': '皮卡丘',
         'periods': (
             ('8:30:00', '12:30:00'),
