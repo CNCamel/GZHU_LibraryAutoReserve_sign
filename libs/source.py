@@ -375,6 +375,7 @@ class ZWYT(object):
 
         # 暂无预约
         if res1_data.get('data').get('reserveInfo') is None:
+            logger.error(f"暂无预约")
             return
 
         # 获取预约编号
