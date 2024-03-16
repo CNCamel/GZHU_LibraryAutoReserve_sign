@@ -30,8 +30,8 @@ jobs:
         env:
           XUHAO: ${{ secrets.XUHAO }}
           MIMA: ${{ secrets.MIMA }}
-          # XUHAO1: ${{ secrets.XUHAO1 }}
-          # MIMA1: ${{ secrets.MIMA1 }}
-          XUHAO2: ${{ secrets.XUHAO2 }}
-          MIMA2: ${{ secrets.MIMA2 }}
+          XUHAO1: ${{ secrets.XUHAO1 }}
+          MIMA1: ${{ secrets.MIMA1 }}
+          # XUHAO2: ${{ secrets.XUHAO2 }}
+          # MIMA2: ${{ secrets.MIMA2 }}
         run: python sign.py
