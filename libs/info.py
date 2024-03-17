@@ -15,8 +15,8 @@ infos = [
 
     # # 如果只是一个人预约座位，不需要帮别人预约签到，则可把下面三个字典注释/删除
     {
-        'sno': str(os.environ['XUHAO2']),
-        'pwd': str(os.environ['MIMA2']),
+        'sno': str(os.environ['XUHAO1']),
+        'pwd': str(os.environ['MIMA1']),
         'devName': '3c-056',
         'name': '皮卡丘',
         'periods': (
